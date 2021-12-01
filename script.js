@@ -36,4 +36,4 @@ async function getIngredient(e) {
 	$('#drink3').html(data.drinks[2].strDrink)
 }
 
-$('form').click(getIngredient)
+$(".input2").click(getIngredient)
