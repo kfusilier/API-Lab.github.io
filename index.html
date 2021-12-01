@@ -9,35 +9,37 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         
 <!-- Link CSS -->
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
 
 <!-- Link JS -->
     <script src="script.js" defer></script> 
 
 <!-- Tab Title -->
     <title>Drink More.</title>
+
 </head>
+        <body>
+                <div class="textBody">
 
-<body>
-<h1>You Should Drink More!</h1>
+                    <h1>You Should Drink More!</h1>
 
-<h3>Use the buttons below to find a drink at random or search by your favorite spirit...</h3>
+                    <h3>Use the buttons below to find a drink at random or search by your favorite spirit...</h3>
 
-<button id="randomDrink">Random Drink Generator</button>
+                        <button id="randomDrink">Random Drink Generator</button>
 
-<p id="randomOutput"></p>
+                    <p id="randomOutput"></p>
 
-<p id="drinkByIngredient">
-    <form>
-        <input type="text" placeholder="enter spirit name" />
-        <input class="input2" type="submit" value="Drink by Spirit" />
-    </form>
-</p>
-
-</body>
+                    <p id="drinkByIngredient">
+                        <form>
+                            <input type="text" placeholder="enter spirit name" />
+                            <input class="input2" type="submit" value="Drink by Spirit" />
+                        </form>
+                    </p>
+                </div>
+        </body>
 </html>
 
-<dl>
+<dl class="drinklist">
     <dt>Drink #1: </dt>
     <dd id="drink1"></dd>
     <dt>Drink #2:</dt>
